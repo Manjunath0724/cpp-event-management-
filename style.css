@@ -1,0 +1,278 @@
+/* Reset margin and padding for body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/*-------Navigation-------*/
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #34495e; /* Darker blue-gray background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 30px;
+}
+
+.navbar-nav li {
+  padding: 0 15px;
+}
+
+.navbar-nav li a {
+  color: #ecf0f1; /* Light gray text */
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c; /* Bright turquoise for hover effect */
+}
+
+.navbar-toggler {
+  border: none;
+  background: #1abc9c; /* Turquoise background for toggler */
+}
+
+.nav-link {
+  color: #ecf0f1 !important;
+}
+
+/*-------Slider-------*/
+#slider {
+  width: 100%;
+}
+
+.carousel-caption h5 {
+  color: #ecf0f1;
+  font-size: 42px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Improved text readability */
+}
+
+/*-------About-------*/
+#about {
+  padding: 50px 0;
+  background: #f9f9f9; /* Very light gray background */
+  color: #555;
+}
+
+.about-content {
+  padding-top: 20px;
+}
+
+.about-us {
+  margin-top: 40px;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 3px solid #1abc9c; /* Turquoise border */
+  background: #fff;
+  border-radius: 50%;
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  background: #1abc9c; /* Turquoise background on hover */
+  border-color: #fff; /* White border on hover */
+  color: #fff; /* White icon color on hover */
+}
+
+#about p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #777; /* Medium gray text */
+}
+
+.about-us .col-md-3:hover {
+  background: #1abc9c; /* Turquoise background on hover */
+  color: #fff; /* White text on hover */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/*-------Services-------*/
+#services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/services.png);
+  background-size: cover;
+  background-position: center;
+  color: #ecf0f1; /* Light gray text */
+  background-attachment: fixed;
+  padding: 50px 0;
+}
+
+#services h1 {
+  text-align: center;
+  color: #ecf0f1;
+  padding-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#services h1::after {
+  content: '';
+  background: #1abc9c; /* Turquoise underline */
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.services {
+  margin-top: 40px;
+}
+
+#services .icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 2px solid #fff; /* White border */
+  background: #1abc9c; /* Turquoise background for icons */
+  border-radius: 50%;
+  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+#services .icon:hover {
+  background: #fff; /* White background on hover */
+  border-color: #1abc9c; /* Turquoise border on hover */
+  color: #1abc9c; /* Turquoise icon color on hover */
+}
+
+#services p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #bbb; /* Light gray text */
+}
+
+.services .col-md-12:hover {
+  background: #1abc9c;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/*------Promo-------*/
+#promo {
+  color: #333;
+  text-align: center;
+  padding: 100px;
+  font-size: 38px;
+  background: #f9f9f9; /* Light gray background */
+}
+
+/*-------Testimonials------*/
+#testimonials {
+  padding: 50px 0;
+  background: #fff; /* White background for testimonials */
+}
+
+#testimonials .row {
+  margin-top: 30px;
+}
+
+.col-md-12 {
+  margin: 40px;
+}
+
+.profile:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+/*------Get in Touch-------*/
+#contact {
+  background: linear-gradient(to right, #ecf0f1, #ffffff); /* Light gradient background */
+  padding: 60px 0;
+  color: #555;
+  text-align: center;
+}
+
+.contact-form {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px; /* Rounded corners for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-form h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333; /* Darker text for contrast */
+}
+
+.form-control {
+  border-radius: 8px; /* More rounded corners for input fields */
+  border: 1px solid #ddd; /* Light gray border */
+  margin-bottom: 15px;
+  padding: 15px; /* More padding for better touch */
+  font-size: 16px;
+}
+
+.form-control:focus {
+  border-color: #1abc9c; /* Turquoise border on focus */
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.5); /* Subtle shadow on focus */
+}
+
+.btn-submit {
+  background: #1abc9c; /* Turquoise background for button */
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 8px; /* Rounded corners for the button */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: #16a085; /* Darker turquoise on hover */
+}
+
+.contact-info {
+  margin: 20px;
+  color: #1abc9c; /* Turquoise color for contact info */
+  font-weight: bold;
+  padding: 15px;
+  border: 1px solid #ddd; /* Light border for separation */
+  border-radius: 8px; /* Rounded corners for contact info boxes */
+  background: #fff; /* White background for boxes */
+  display: inline-block;
+  width: calc(33.333% - 40px); /* Three boxes per row with spacing */
+  box-sizing: border-box; /* Include padding and border in element’s total width and height */
+  margin: 10px;
+}
+
+.contact-info i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/*--------Footer-------*/
+#footer {
+  background: #34495e; /* Dark blue-gray background */
+  color: #ecf0f1;
+  padding: 12px;
+  text-align: center;
+}
+
+.fa-paint-brush {
+  margin: 4px;
+  color: #e74c3c; /* Bright red for icons */
+}
